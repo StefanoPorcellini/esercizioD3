@@ -23,6 +23,7 @@ async getDataBase():Promise<void>{
   let data = <iDataBase[]> await response.json()
 
   this.dataBase = data
+  
 }
 
 }
